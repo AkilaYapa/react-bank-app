@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Clone repository'){
             steps{
-                git 'https://github.com/naseemkhandev/react-bank-app.git'
+                git 'https://github.com/AkilaYapa/react-bank-app.git'
             }
         }
         stage('Verify environment'){
