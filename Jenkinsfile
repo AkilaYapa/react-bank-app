@@ -1,11 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage('Clone repository'){
-            steps{
-                git 'https://github.com/AkilaYapa/react-bank-app.git'
-            }
-        }
         stage('Verify environment'){
             steps{
                 sh 'node -v'
